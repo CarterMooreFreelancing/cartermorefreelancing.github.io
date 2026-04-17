@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>csrter555's Portfolio</title>
+
+<link rel="icon" type="image/png" href="logo2.png">
+<link rel="shortcut icon" href="logo2.png">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+        background: url("background3.png") no-repeat center center fixed;
+    background-size: cover;
+    background-color: #111; /* fallback */
+    min-height: 100vh;
+    color: white;
+}
+
+
+.overlay {
+    background: rgba(0, 0, 0, 0.65);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
+
+.navbar a:hover {
+    color: #ff7a00;
+}
+
+
+.hero {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #ccc;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+
+.buttons a {
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 0.95rem;
+    transition: 0.2s;
+}
+
+.btn-top {
+    position: absolute;  
+    top: 50%;            
+    left: 50%;           
+    transform: translate(-50%, -50%); 
+    z-index: 2;          
+    background-color: #98cfff;
+    color: #000055;
+    padding: 15px 30px;
+  }
+
+.btn-primary {
+    background-color: #98cfff;
+    color: #000055;
+}
+
+.btn-primary:hover {
+    background: #98cfff;
+}
+
+.btn-secondary {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-better {
+    background: #000055;
+    color: #98cfff;
+    border: 1px solid #000055;
+    border-radius: 999px;      
+    padding: 10px 20px;           
+    text-align: center;
+}
+
+.btn-better:hover {
+    background: #000055;
+    color: #98cfff;
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: black;
+}
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+  padding: 15px 0;
+  font-size: 0.8rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.footer-legal {
+    text-align: left;
+    padding: 15px;
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+
+.footer-other {
+    text-align: right;
+    padding: 15px;
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+
+.brand-logo {
+    width: 25%; 
+    height: auto; 
+    display: block; 
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="overlay">
+
+    <div class="navbar">
+        <h1>Carter's Portfolio</h1>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="resume.html">Resume</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h2>Innovative. Delicate. Modern.</h2>
+            <p>
+                Work you'd pay millions for — at a price so affordable you'll double take.<br><br>
+                Developer, Designer, and Systems Builder specializing in Discord bots, APIs, and UI/UX.<br><br>
+                This part of the website is under development and is not finished. <br><br>
+            </p>
+
+            <div class="buttons">
+                <a href="https://mail.google.com/mail/?tf=cm&to=carter.business.est@gmail.com" target="_blank" class="btn-primary">Hire Me</a> 
+            </div> 
+                <a href="gfx.html" class="btn-better">Graphic Design</a>
+                <a href="code-design.html" class="btn-better">Code Design</a>
+            </div>
+        </div>
+    </div>
+
+
+     <div class="footer-container">
+      <div class="footer-legal"><a href="tos.html">Terms •</a><a href="privacy.html"> Privacy •</a><a href="tou.html"> Usage Terms</a></div>
+      <div class="footer">© Copyright 2026, Carter Moore. All Rights Reserved.</div>
+      <div class="footer-other"><a href="https://github.com/csrter555" target="_blank"><img src="github.png" class="brand-logo"></a> <a href="https://mail.google.com/mail/?tf=cm&to=carter.business.est@gmail.com" target="_blank"><img src="gmail.png" class="brand-logo"></a></div>
+     </div> 
+
+</div>
+
+</body>
+</html>
